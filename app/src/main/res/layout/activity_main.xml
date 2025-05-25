@@ -109,7 +109,7 @@
                 android:minHeight="100dp"
                 android:onClick="onClickUpdateArrangement"
                 android:tag="4"
-                android:text="CRC...(R)"
+                android:text="CRCL(R)"
                 android:textAlignment="center"
                 android:textAppearance="@android:style/TextAppearance.Material.Large"
                 android:textSize="30sp" />
