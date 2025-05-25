@@ -12,7 +12,7 @@ The 3 different apples are the following: Hyper Miracle Sweet Gorgeous Beautiful
 
 This app will keep track of the apple arrangement and update it after each sequence so that you can win the game with minimal manual effort. All you need to do is indicate which sequence occurred after each round.
 
-The following sequence keys incorporate both the legacy strategy and early exit strategies. If using the <a href="https://fogu.com/hmforum/viewtopic.php?t=37256">original guide</a>, you generally only need to take note of the left apple's position after its first 2 movements; however, if its first 2 movements land it in the center position and then the right position, you must follow it to the end and take note of its final position. For your convenience, I have also denoted early exit conditions for each sequence so that players can choose either strategy while using this app.
+The following sequence keys incorporate both the legacy strategy and early exit strategies. If using the <a href="https://fogu.com/hmforum/viewtopic.php?t=37256">original guide</a>, you generally only need to take note of the left apple's position after its first 2 movements; however, if its first 2 movements land it in the center position and then the right position, you must follow it to the end and take note of its final position. For your convenience, I have also denoted early exit conditions (basically, the soonest you can tell with certainty which sequence it is without having to follow it to the end) for each sequence so that players can choose either strategy while using this app.
 
 C--L - left apple moves to center, stays still next 2 steps, then moves to left
 
