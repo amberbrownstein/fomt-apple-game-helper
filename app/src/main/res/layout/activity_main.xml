@@ -162,8 +162,25 @@
                 android:layout_margin="5dp"
                 android:gravity="center"
                 android:onClick="onClickUndo"
-                android:tag="5"
                 android:text="UNDO"
+                android:textAppearance="@android:style/TextAppearance.Material.Display1"
+                android:textSize="30sp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/row5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/button_reset"
+                android:layout_width="150dp"
+                android:layout_height="100dp"
+                android:layout_margin="5dp"
+                android:gravity="center"
+                android:onClick="onClickReset"
+                android:text="RESET"
                 android:textAppearance="@android:style/TextAppearance.Material.Display1"
                 android:textSize="30sp" />
         </TableRow>

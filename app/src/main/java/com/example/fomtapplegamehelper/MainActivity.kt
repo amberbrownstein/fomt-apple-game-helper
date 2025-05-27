@@ -8,7 +8,7 @@ import androidx.activity.ComponentActivity
 val validArrangements = listOf("SHA", "SAH", "ASH", "AHS", "HAS", "HSA")
 
 class MainActivity : ComponentActivity() {
-    private var previousArrangement = "SHA"
+    private var previousArrangement = validArrangements[0]
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -44,5 +44,12 @@ class MainActivity : ComponentActivity() {
     fun onClickUndo(undoButton: View) {
         val currArrangementEditText = findViewById<EditText>(R.id.editArrangementText)
         currArrangementEditText.setText(previousArrangement)
+    }
+
+    fun onClickReset(resetButton: View){
+        val currArrangementEditText = findViewById<EditText>(R.id.editArrangementText)
+        val currArrangementText = currArrangementEditText.getText().toString()
+        previousArrangement = currArrangementText
+        currArrangementEditText.setText(validArrangements[0])
     }
 }
